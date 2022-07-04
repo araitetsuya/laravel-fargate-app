@@ -19,4 +19,4 @@
             aws-secret-access-key: ${{ secrets.PROD_AWS_SECRET_ACCESS_KEY }}
             aws-region: ${{ env.AWS_REGION }}
             role-to-assume: ${{ secrets.PROD_AWS_ASSUME_ROLE_ARN }}
-            role-duration-seconds: 18000
+            role-duration-seconds: 1800
