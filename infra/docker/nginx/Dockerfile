@@ -1,4 +1,4 @@
-FROM node:17-alpine as node
+FROM node:15-alpine as node
 
 FROM nginx:1.20-alpine
 LABEL maintainer="ucan-lab <yes@u-can.pro>"
